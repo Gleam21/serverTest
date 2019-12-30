@@ -11,8 +11,9 @@ post 방식으로 integer 타입 점수 등록
 </pre>
 
 ## 2.
-> [get] /users/getuserdata
+
 get 방식으로 유저의 username과 score 가져오기
+> [get] /users/getuserdata
 <pre>
 {
     'username' : 'kimgildong',
@@ -23,8 +24,9 @@ get 방식으로 유저의 username과 score 가져오기
 </pre>
 
 ## 3.
-> [post] /users/login
+
 로그인 안된 사용자의 에러 메세지
+> [post] /users/login
 # 실패
 <pre>
 {
@@ -34,8 +36,9 @@ get 방식으로 유저의 username과 score 가져오기
 </pre>
 
 ## 4.
->[post] /users/info
 요청에 대한 성공과 실패 메시지
+>[post] /users/info
+
 # 성공
 <pre>
 {
