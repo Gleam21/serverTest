@@ -34,12 +34,12 @@ get 방식으로 유저의 username과 score 가져오기
 </pre>
 
 ## 4.
->[post] /users/
+>[post] /users/info
 요청에 대한 성공과 실패 메시지
 # 성공
 <pre>
 {
-    'message':'성공'
+    'score' : 1
 
 }
 </pre>
@@ -47,7 +47,7 @@ get 방식으로 유저의 username과 score 가져오기
 # 실패
 <pre>
 {
-    'message':'404 error'
+    'message':'서버 오류가 발생했습니다.'
 
 }
 </pre>
